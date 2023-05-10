@@ -1,7 +1,6 @@
-import React, { useState, useContext } from "react";
+import React, { useState } from "react";
 import toast, { Toaster } from "react-hot-toast";
 import axios from "axios";
-// import { AuthContext } from "../context/auth/AuthContext";
 import { Navigate } from "react-router-dom";
 
 

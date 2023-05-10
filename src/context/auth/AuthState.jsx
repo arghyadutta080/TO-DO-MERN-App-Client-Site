@@ -1,7 +1,5 @@
 import React, { useState } from 'react'
 import { AuthContext } from './AuthContext';
-import axios from 'axios';
-import { useEffect } from 'react';
 
 
 const AuthState = (props) => {
