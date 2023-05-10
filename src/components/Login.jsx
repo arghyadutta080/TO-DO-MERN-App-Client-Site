@@ -20,7 +20,7 @@ const Login = () => {
     const submitHandler = async (e) => {
         e.preventDefault();
         try {
-            await axios.post("http://localhost:5000/user/login", {
+            await axios.post("https://to-do-app-by-mern-stack.vercel.app/user/login", {
                 email: email,
                 password: password
             },

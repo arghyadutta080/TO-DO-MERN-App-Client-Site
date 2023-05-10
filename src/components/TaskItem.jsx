@@ -21,7 +21,7 @@ const TaskItem = ({ id, title, details, update }) => {
 
     const updateTask = async (id) => {
         try {
-            await axios.put(`http://localhost:5000/task/${id}`, {},
+            await axios.put(`https://to-do-app-by-mern-stack.vercel.app/task/${id}`, {},
                 {
                     withCredentials: true
                 })
@@ -35,7 +35,7 @@ const TaskItem = ({ id, title, details, update }) => {
 
     const deleteTask = async (id) => {
         try {
-            await axios.delete(`http://localhost:5000/task/${id}`,
+            await axios.delete(`https://to-do-app-by-mern-stack.vercel.app/task/${id}`,
                 {
                     withCredentials: true
                 }

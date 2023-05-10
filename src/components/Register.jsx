@@ -15,7 +15,7 @@ const Register = () => {
     const submitHandler = async (e) => {
         e.preventDefault();
         try {
-            await axios.post("http://localhost:5000/user/register", {
+            await axios.post("https://to-do-app-by-mern-stack.vercel.app/user/register", {
                 name: name,
                 email: email,
                 password: password

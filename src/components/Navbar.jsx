@@ -16,7 +16,7 @@ const Navbar = () => {
 
     const logoutHandler = async () => {
         try {
-            await axios.get("http://localhost:5000/user/logout", 
+            await axios.get("https://to-do-app-by-mern-stack.vercel.app/user/logout", 
                 {
                     withCredentials: true
                 }

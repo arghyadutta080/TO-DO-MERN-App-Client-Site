@@ -25,7 +25,7 @@ const Home = () => {
     const submitHandler = async (e) => {
         e.preventDefault();
         try {
-            await axios.post('http://localhost:5000/task/addtask', {
+            await axios.post('https://to-do-app-by-mern-stack.vercel.app/task/addtask', {
                 title: title,
                 description: details
             },
@@ -48,7 +48,7 @@ const Home = () => {
 
     useEffect(() => {
 
-        axios.get('http://localhost:5000/user/me', {
+        axios.get('https://to-do-app-by-mern-stack.vercel.app/user/me', {
             withCredentials: true
         })
             .then((res) => {
@@ -62,7 +62,7 @@ const Home = () => {
                 setUser({})
             })
 
-        axios.get('http://localhost:5000/task/gettask', {
+        axios.get('https://to-do-app-by-mern-stack.vercel.app/task/gettask', {
             withCredentials: true
         })
             .then((res) => {

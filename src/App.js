@@ -14,7 +14,7 @@ import axios from 'axios'
 function App() {
 
   useEffect(() => {
-    axios.get('http://localhost:5000/user/me', {
+    axios.get('https://to-do-app-by-mern-stack.vercel.app/user/me', {
       withCredentials: true
     })
       .then((res) => { console.log(res) })
