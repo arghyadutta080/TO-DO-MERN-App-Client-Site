@@ -1,7 +1,6 @@
 import React from 'react'
 import { useContext, useEffect } from 'react';
 import { AuthContext } from '../context/auth/AuthContext';
-import axios from 'axios';
 import { Navigate } from 'react-router-dom';
 
 

@@ -4,7 +4,6 @@ import axios from "axios";
 import { AuthContext } from "../context/auth/AuthContext";
 import { Navigate } from "react-router-dom";
 import { Link } from "react-router-dom";
-import { set } from "mongoose";
 
 const Login = () => {
 

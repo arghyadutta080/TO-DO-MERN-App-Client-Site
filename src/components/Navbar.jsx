@@ -3,8 +3,7 @@ import { Link } from 'react-router-dom'
 import { AuthContext } from '../context/auth/AuthContext'
 import toast, { Toaster } from "react-hot-toast";
 import axios from "axios";
-import { Navigate } from "react-router-dom";
-import { set } from 'mongoose';
+
 
 const Navbar = () => {
 
